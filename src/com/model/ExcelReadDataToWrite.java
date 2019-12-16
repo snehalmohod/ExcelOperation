@@ -16,6 +16,7 @@ public class ExcelReadDataToWrite {
 	public void excelRead(String filename,String Sheetname) throws IOException
 	{    int rowno1=0;
 	     int colno1=0;
+	     System.out.println("ExcelRead Operation");
 		//int arrayExcel[][]=null;
 		//code to address for file
 		FileInputStream fis=new FileInputStream(filename);
